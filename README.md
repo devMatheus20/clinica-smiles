@@ -6,7 +6,7 @@
 
 > Esse é um Site Responsivo feito com a intenção de treinar o HTML5, CSS3, Media Query e  um pouco do JavaScript.
 
-Confira a aplicação: <a href="https://devmatheus20.github.io/europay-page/#"> https://devmatheus20.github.io/europay-page/
+Confira a aplicação: <a href="https://github.com/devMatheus20/clinica-page"> https://github.com/devMatheus20/clinica-page
 
 ## 🚀 Technologies
 Este projeto foi desenvolvido com as seguintes tecnologias:
