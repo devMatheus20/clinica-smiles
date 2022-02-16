@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Smiles</title>
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <main>
+        <section id="home" class="container-up">
+            <header>
+                <nav>
+                    <a href="#"><h2>Clínica Premier</h2></a>
+                    <ul id="list-nav" class="nav-list">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#quem-somos">Quem Somos</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a onclick="hiddenForm()" href="#">Contato</a></li>
+                    </ul>
+                </nav>
+                <div onclick="showMenu()" class="toggle bx bx-menu img-menu"></div>
+            </header>
+
+            <article id="container-form" class="container-form">
+                <h4>Entre em contato</h4>
+                <form class="form" action="" method="get">
+                    <label>
+                        Nome
+                        <input type="text" name="Nome" placeholder="Seu nome" required>
+                    </label>
+
+                    <label>
+                        Email
+                        <input type="email" name="Email" placeholder="seuemail@hotmail.com" required>
+                    </label>
+
+                    <label>
+                        Fale conosco
+                        <textarea placeholder="Sua dúvida aqui"></textarea>
+                    </label>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+
+            <div id="article-top" class="article">
+                <h1>Clínica Premier</h1>
+                <p>Seu sorriso como você nunca viu antes!</p>
+            </div>
+        </section>
+
+
+        <section id="services" class="container-mid">
+            <h3>Nossos serviços</h3>
+
+            <article class="article-mid">
+                <div class="cards">
+                    <div class="cards-title">
+                        <p>Cancer Care</p>
+                    </div>
+                    <div class="cards-content">
+                        <ul>
+                            <li>The best products start<br> with Figma</li>
+                            <li>Design with real data</li>
+                            <li>Lightning fast prototyping</li>
+                            <li>Fastest way to organize</li>
+                            <li>Work at the speed of thought</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="cards-title">
+                        <p>Cancer Care</p>
+                    </div>
+                    <div class="cards-content">
+                        <ul>
+                            <li>The best products start<br> with Figma</li>
+                            <li>Design with real data</li>
+                            <li>Lightning fast prototyping</li>
+                            <li>Fastest way to organize</li>
+                            <li>Work at the speed of thought</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="cards">
+                    <div class="cards-title">
+                        <p>Cancer Care</p>
+                    </div>
+                    <div class="cards-content">
+                        <ul>
+                            <li>The best products start<br> with Figma</li>
+                            <li>Design with real data</li>
+                            <li>Lightning fast prototyping</li>
+                            <li>Fastest way to organize</li>
+                            <li>Work at the speed of thought</li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+        <section id="quem-somos" class="container-bottom">
+            <h5>Sobre Nós</h5>
+            <article class="article-bottom">
+
+                <p class="paragraph"> 
+                    Somos um escritório moderno, versátil e dinâmico, cujo objetivo é levar
+                    soluções criativas e eficazes aos clientes, tendo como sócios o Dr.Kleber 
+                    Bissolatti e a Dra.Monique Antonacci, profissionais multidisciplinares com
+                    sólida formação e vasta experiência em questões de grande complexidade.
+                </p>
+                <p class="paragraph">
+                    Peliciotti Advocacia é um escritório que preza pela qualidade dos serviços
+                    jurídicos, com amplo conhecimento e experiência de atuação. Contamos
+                    com uma equipe de profissionais experientes para atender nossos clientes
+                    de forma personalizada, contemplando as diversas áreas do Direito.
+                </p>
+                <p class="paragraph">
+                    Nosso escritório está comprometido em ter os melhores profissionais,
+                    advogados, colaboradores e parceiros, empenhados em oferecer seus
+                    serviços com grande sensibilidade e comprometimento, com a mais alta
+                    competência e comunicação com os clientes.
+                </p>
+                <p class="paragraph">
+                    Praticamos a lei com vocação e paixão pela profissão para responder com
+                    excelência à confiança depositada em nós pelos nossos clientes.
+                </p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p class="p-footer">Clínica Premier - Todos os direitos reservados ©</p>
+        <p class="p-footer">Desenvolvido por: Matheus Santos</p>
+        <a class="link-footer" href="#">
+            <p class="p-footer">Termos de uso e Política de Privacidade</p>
+        </a>
+        <a class="link-footer" href="#">
+            <p class="p-footer">Segurança no Uso da Internet</p>
+        </a>
+    </footer>
+
+
+    <script src="./assets/script/index.js"></script>
+</body>
+
+</html>
