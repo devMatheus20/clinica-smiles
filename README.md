@@ -1,7 +1,7 @@
 
 # Clínica Smiles
 
-<img id="Clínica" src="./assets/GIF/clinica.gif" alt="clinica-gif" width="500px">
+<img id="Clinica" src="./assets/GIF/clinica.gif" alt="clinica-gif" width="500px">
 
 
 > Esse é um Site Responsivo feito com a intenção de treinar o HTML5, CSS3, Media Query e  um pouco do JavaScript.
@@ -39,4 +39,4 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
 
 Made with ♥ by Matheus Santos :wave: <a href="https://www.linkedin.com/in/matheus-santos-souza">Get in touch!</a>
 
-[⬆ Voltar ao topo](#Europay)<br>
+[⬆ Voltar ao topo](#Clinica)<br>
