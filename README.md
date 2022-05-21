@@ -8,7 +8,7 @@
 
 Confira a aplicação: <a href="https://devmatheus20.github.io/clinica-smiles/#"> https://devmatheus20.github.io/clinica-smiles/#
 
-## 🚀 Technologies
+## 🚀 Tecnologias
 Este projeto foi desenvolvido com as seguintes tecnologias:
     
 - HTML
